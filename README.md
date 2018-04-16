@@ -3,6 +3,7 @@ Python implementation of Dijkstra's Algorithm.
 The method gets directed graph, weights and source and returns dictionary.
 
 example:
+
  graph = {'a': ['b', 'c'],
           'b': ['d'], 
           'c': [],
