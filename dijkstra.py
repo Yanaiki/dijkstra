@@ -1,6 +1,5 @@
 #Author: Yanai Lipshitz
 
-
 def dijkstra(graph,weights,source):
     inf = "infinity"
     A = [inf] * len(graph)
