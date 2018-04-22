@@ -2,7 +2,7 @@
 
 
 def dijkstra(graph,weights,source):
-    inf= "infinity"
+    inf = "infinity"
     A = [inf] * len(graph)
     queue = []
     B = graph.keys()
