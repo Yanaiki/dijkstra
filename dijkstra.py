@@ -6,8 +6,7 @@ def dijkstra(graph,weights,source):
     A = [inf] * len(graph)
     queue = []
     B = graph.keys()
-
-      
+     
     queue = [(0, source)]
     while queue:
         (path_len, v) = heapq.heappop(queue)
