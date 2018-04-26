@@ -1,4 +1,5 @@
 #Author: Yanai Lipshitz
+import heapq
 
 def dijkstra(graph,weights,source):
     inf = "infinity"
