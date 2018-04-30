@@ -17,8 +17,7 @@ def dijkstra(graph,weights,source):
             for w in graph[v]:
                 if (v,w) in weights:
                     edge_len = weights.get((v,w))
-                r = ord(w)-97
-                if A[r] is inf:
+                if A[ord(w)-97] is inf:
                     heapq.heappush(queue, (path_len + edge_len, w))
     dictionary = dict(zip(B, A))
 
